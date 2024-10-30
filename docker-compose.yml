@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    networks:
+      - rag-network
+    volumes:
+      - /home/moh/Desktop/memoire/volumes/mongodb:/data/db
+
+  rag:
+    image: rag:V1
+    container_name: rag
+    networks:
+      - rag-network
+    ports:
+      - 8501:8501
+    volumes:
+      - /home/moh/Desktop/memoire/scripts:/app
+    depends_on:
+      - mongodb
+
+    
+
+networks:
+  rag-network:
+    external: true
