@@ -5,9 +5,9 @@ _`Les chatbots sont de plus en plus utilisés dans le domaine médical pour four
 
 ## _`Objectifs`_
 <ul>
-  <li> _`Créer une base de connaissances médicale synthétique dans MongoDB pour simuler les types de questions et réponses couramment posées dans les hôpitaux.`_ </li>
-  <li> _`Utiliser RAG pour offrir des réponses contextuelles et précises en recherchant directement dans cette base de connaissances.`_ </li>
-  <li> _`Démontrer l’efficacité de RAG comparée aux modèles de langage classiques dans la génération de réponses médicales.`_ </li>
+  <li>Créer une base de connaissances médicale synthétique dans MongoDB pour simuler les types de questions et réponses couramment posées dans les hôpitaux.</li>
+  <li>Utiliser RAG pour offrir des réponses contextuelles et précises en recherchant directement dans cette base de connaissances. </li>
+  <li>Démontrer l’efficacité de RAG comparée aux modèles de langage classiques dans la génération de réponses médicales. </li>
 </ul>
 
 
